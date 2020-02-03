@@ -1,0 +1,25 @@
+.signin-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.signin-form {
+    border: 1px solid #ccc;
+    padding: 24px !important;
+    width: 350px;
+    max-width: 500px;
+}
+
+.signin-form-button {
+    width: 100%;
+}
+
+.signin-avatar {
+    text-align: center;
+}
+
+.border-none {
+    border: none;
+}

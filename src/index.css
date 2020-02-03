@@ -1,0 +1,97 @@
+@import '~antd/dist/antd.css';
+#root {
+    width: 100%;
+}
+
+.infinite-container {
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    overflow: auto;
+    padding: 8px 24px;
+    height: 300px;
+}
+
+.loading-container {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.content-wrapper {
+    margin-top: 64px;
+    min-height: 280;
+}
+
+.card-wrapper {
+    margin-top: 3px;
+}
+
+.ticket-detail-card {
+    margin-bottom: 24px;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.margin-left-1 {
+    margin-left: 6px;
+}
+
+.margin-right-1 {
+    margin-right: 6px;
+}
+
+.margin-top-1 {
+    margin-top: 6px;
+}
+
+.margin-bottom-1 {
+    margin-bottom: 6px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.align-items-flex-end {
+    align-items: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.margin-0 {
+    margin: 0 !important;
+}
+
+.sider-link {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.create-ticket-form-item {
+    min-width: 600px;
+}
+
+#ticket-detail .ant-list-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.ant-tabs-ink-bar, .ant-tabs-tab-prev, .ant-tabs-tab-next {
+    z-index: 0;
+}

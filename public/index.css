@@ -1,0 +1,114 @@
+@import '~antd/dist/antd.css';
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.login-form {
+    margin: auto;
+    padding: 48px 24px;
+    max-width: 500px;
+    border: 1px solid #ccc;
+}
+
+.login-form-forgot {
+    float: right;
+}
+
+.login-form-button {
+    width: 100%;
+}
+
+.demo-infinite-container {
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    overflow: auto;
+    padding: 8px 24px;
+    height: 300px;
+}
+
+.demo-loading-container {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.content-wrapper {
+    margin-top: 64px;
+    padding: 0 50px;
+    min-height: 280;
+}
+
+.card-wrapper {
+    margin-top: 24px;
+}
+
+.ticket-detail-card {
+    margin-bottom: 24px;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.margin-left-1 {
+    margin-left: 6px;
+}
+
+.margin-right-1 {
+    margin-right: 6px;
+}
+
+.margin-top-1 {
+    margin-top: 6px;
+}
+
+.margin-bottom-1 {
+    margin-bottom: 6px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.margin-0 {
+    margin: 0 !important;
+}
+
+.sider-link {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.create-ticket-form-item {
+    min-width: 600px;
+}
